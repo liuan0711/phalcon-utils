@@ -1,0 +1,17 @@
+{
+    "name": "liuan0711/phalcon-utils",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "limx\\phalcon\\": "src"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "ext-phalcon": "^2.0.10"
+    }
+}
